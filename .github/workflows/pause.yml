@@ -2,7 +2,7 @@ name: pause
 on:
   workflow_dispatch: 
   schedule:
-    - cron:  0 19 * * * 
+    - cron:  31 21 * * * 
 env: 
     PHONE: ${{ secrets.PHONE }}
     PASSWORD: ${{ secrets.PASSWORD }}
